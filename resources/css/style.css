@@ -1,0 +1,63 @@
+html, body {
+    background-color: black;
+}
+
+p {
+    font-family: Verdana;
+    text-align: center;
+    font-weight: normal;
+}
+
+#header {
+    font-size: 50px;
+    color: white;
+}
+
+#link {
+    font-size: 16px;
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.travel-guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#large-text{
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+#small-text {
+    font-size: 21px;
+    color: grey;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+#copyright {
+    color: grey;
+    font-size: 21px;
+    text-align: right;
+    align-self: flex-end;
+}
+
